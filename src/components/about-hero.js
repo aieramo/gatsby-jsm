@@ -7,6 +7,15 @@ import * as styles from "./about-hero.css"
 export default function AboutHero(props) {
   return (
     <Section>
+      <Container width="fullbleed">
+          {props.image && (
+            <GatsbyImage
+              alt={props.image.alt}
+              image={getImage(props.image.gatsbyImageData)}
+              className={styles.aboutHeroImage}
+            />
+          )}
+        </Container>
       <Container>
         <SuperHeading className={styles.aboutHeroHeader}>
           {props.heading}
@@ -15,15 +24,7 @@ export default function AboutHero(props) {
           <Text className={styles.aboutHeroText}>{props.text}</Text>
         )}
       </Container>
-      <Container width="fullbleed">
-        {props.image && (
-          <GatsbyImage
-            alt={props.image.alt}
-            image={getImage(props.image.gatsbyImageData)}
-            className={styles.aboutHeroImage}
-          />
-        )}
-      </Container>
+      
     </Section>
   )
 }
