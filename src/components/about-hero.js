@@ -15,7 +15,7 @@ export default function AboutHero(props) {
           <Text className={styles.aboutHeroText}>{props.text}</Text>
         )}
       </Container>
-      <Container width="wide">
+      <Container width="fullbleed">
         {props.image && (
           <GatsbyImage
             alt={props.image.alt}
