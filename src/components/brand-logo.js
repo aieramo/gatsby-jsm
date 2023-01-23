@@ -1,11 +1,5 @@
 import * as React from "react"
 
-export function Dino() {
-  // Local variables are fine
-  const width = 300
-  return <StaticImage src="https://jewelrystoremarketers.com/wp-content/uploads/2021/03/Website-Logo-transparrent.png" width={width} />
-}
-/*
 export default function GatsbyWordpressLogo() {
   return (
     <svg
@@ -50,4 +44,3 @@ export default function GatsbyWordpressLogo() {
     </svg>
   )
 }
-*/
