@@ -2,7 +2,7 @@ import * as React from "react"
 
 export default function GatsbyWordpressLogo() {
   return (
-    <svg
+    <!--svg
       width="82"
       height="24"
       viewBox="0 0 82 24"
@@ -41,6 +41,8 @@ export default function GatsbyWordpressLogo() {
         d="M57.666 11.9997C57.666 5.38302 63.0494 0 69.6661 0C76.2826 0 81.6666 5.38302 81.6668 11.9997C81.6668 18.6172 76.2826 24 69.6661 24C63.0494 24 57.666 18.6172 57.666 11.9997ZM58.2162 11.9997C58.2162 18.3134 63.3528 23.45 69.6661 23.45C75.9792 23.45 81.1154 18.3134 81.1154 11.9997C81.1154 5.68647 75.9792 0.55026 69.6661 0.55026C63.3526 0.55026 58.2162 5.68647 58.2162 11.9997Z"
         fill="currentColor"
       />
-    </svg>
+    </svg-->
+    const width = 250
+    return <StaticImage src="https://gatsby2.jewelrystoremarketers.com/wp-content/uploads/2023/01/Website-Logo-transparrent.png" width={width} />
   )
 }
