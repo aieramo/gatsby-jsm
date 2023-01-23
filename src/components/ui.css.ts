@@ -582,7 +582,7 @@ export const icons: Record<IconSizes, string> = styleVariants(
   {
     small: "24px",
     medium: "32px",
-    large: "320px",
+    large: "300px",
   },
   (size) => ({
     width: size,
