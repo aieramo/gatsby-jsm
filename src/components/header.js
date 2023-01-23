@@ -51,7 +51,8 @@ const data = {
       navItemType: "Link",
       href: "#!",
       text: "Blog",
-    },{
+    },
+    {
       id: 5,
       navItemType: "Link",
       href: "#!",
