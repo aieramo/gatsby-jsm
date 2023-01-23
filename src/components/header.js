@@ -26,30 +26,42 @@ const data = {
       id: 0,
       navItemType: "Link",
       href: "#!",
-      text: "Products",
+      text: "Services",
     },
     {
       id: 1,
       navItemType: "Link",
       href: "#!",
-      text: "Pricing",
+      text: "About Us",
     },
     {
       id: 2,
       navItemType: "Link",
       href: "#!",
-      text: "About",
+      text: "Podcast",
     },
     {
       id: 3,
       navItemType: "Link",
       href: "#!",
+      text: "Contact Us",
+    },
+    {
+      id: 4,
+      navItemType: "Link",
+      href: "#!",
       text: "Blog",
+    },
+    {
+      id: 5,
+      navItemType: "Link",
+      href: "#!",
+      text: "Media Room",
     },
   ],
   cta: {
     href: "#!",
-    text: "Sign Up",
+    text: "(855) 815-3935",
   },
 }
 
