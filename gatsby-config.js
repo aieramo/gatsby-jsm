@@ -31,7 +31,7 @@ module.exports = {
         // These can be imported once ESM support lands
         background_color: "#ffffff",
         theme_color: "#004ca3",
-        icon: "https://jewelrystoremarketers.com/wp-content/uploads/2021/02/favicon-2-1.png",
+        icon: "src/favicon.png",
       },
     },
   ],
