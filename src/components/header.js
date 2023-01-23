@@ -84,8 +84,8 @@ export default function Header() {
         <Flex variant="spaceBetween">
           <NavLink to="/">
             <VisuallyHidden>Home</VisuallyHidden>
-            <!--BrandLogo /-->
-            <img src="https://reactjs.org/logo-og.png" alt="React Image" />
+            <BrandLogo />
+            
           </NavLink>
           <nav>
             <FlexList gap={4}>
