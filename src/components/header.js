@@ -46,18 +46,7 @@ const data = {
       href: "#!",
       text: "Contact Us",
     },
-    {
-      id: 4,
-      navItemType: "Link",
-      href: "#!",
-      text: "Blog",
-    },
-    {
-      id: 5,
-      navItemType: "Link",
-      href: "#!",
-      text: "Media Room",
-    },
+    
   ],
   cta: {
     href: "#!",
